@@ -19,7 +19,7 @@ window.TAPLINK_CONFIG = {
     },
     {
       title: "Telegram",
-      subtitle: "телег арнамыз",
+      subtitle: "телеграм арнамыз",
       url: "https://t.me/geonlinekz",
       iconFile: "./assets/telegram.png",
     },
