@@ -96,7 +96,7 @@ body {
 .links {
   display: grid;
   gap: 12px;
-  margin-top: 14px;
+  margin-top: 8px;
 }
 
 .link {
@@ -133,6 +133,14 @@ body {
   place-items: center;
   font-size: 18px;
 }
+
+.badge-icon{
+  width: 20px;
+  height: 20px;
+  display: block;
+  opacity: 0.9;
+}
+
 
 .chev {
   font-size: 20px;

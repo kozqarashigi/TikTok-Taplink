@@ -7,19 +7,19 @@ window.TAPLINK_CONFIG = {
   links: [
     {
       title: "WhatsApp",
-      subtitle: "жазу / кеңес алу",
+      subtitle: "курс жайлы толық ақпарат алу",
       url: "https://wa.link/51t389",
-      iconFile: "./assets/whatsapp.svg",
+      iconFile: "./assets/whatsapp.png",
     },
     {
       title: "Instagram",
-      subtitle: "@geonline.kz",
+      subtitle: "қызықты контент пен пайдалы ақпарат",
       url: "https://www.instagram.com/geonline.kz?igsh=MXVwYXZsd3ZndnczNw==",
       iconFile: "./assets/insta.png",
     },
     {
       title: "Telegram",
-      subtitle: "Арна / чат",
+      subtitle: "телег арнамыз",
       url: "https://t.me/geonlinekz",
       iconFile: "./assets/telegram.png",
     },

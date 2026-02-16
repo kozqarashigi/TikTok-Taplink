@@ -85,7 +85,17 @@
 
       const badge = document.createElement("div");
       badge.className = "badge";
-      badge.textContent = safeText(l.icon) || "🔗";
+      const iconFile = safeText(l.iconFile).trim();
+    if (iconFile) {
+    const img = document.createElement("img");
+    img.src = iconFile;
+    img.alt = safeText(l.title) || "icon";
+    img.className = "badge-icon";
+    badge.appendChild(img);
+    } else {
+    badge.textContent = safeText(l.icon) || "🔗";
+    }
+
 
       const text = document.createElement("div");
       text.className = "link-text";
@@ -117,7 +127,4 @@
 
   renderLinks("");
 
-  elSearch.addEventListener("input", (e) => {
-    renderLinks(e.target.value || "");
-  });
 })();
