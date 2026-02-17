@@ -8,7 +8,7 @@ window.TAPLINK_CONFIG = {
     {
       title: "WhatsApp",
       subtitle: "курс жайлы толық ақпарат алу",
-      url: "https://wa.link/51t389",
+      url: "https://wa.link/geo_tiktok",
       iconFile: "./assets/whatsapp.png",
     },
     {
